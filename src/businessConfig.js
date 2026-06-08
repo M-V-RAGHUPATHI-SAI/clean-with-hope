@@ -32,6 +32,7 @@ export const businessConfig = {
   "headlineLight": "Expert Cleaning Solutions",
   "headlineBold": "_For a Healthier Home_",
   "heroKeyword": "CLEAN",
+  "heroVideo": "/hero-m14.mp4",
   "heroImage": "/hero-generated.jpg",
   "aboutImage": "https://images.pexels.com/photos/12588505/pexels-photo-12588505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   "heroSubtext": "At Clean With Hope, we understand the importance of a clean and healthy home. Our team of experts provides top-notch cleaning services to ensure your home is sparkling clean and germ-free. From routine cleans to deep cleaning, we've got you covered.",

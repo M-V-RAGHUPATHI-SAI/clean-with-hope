@@ -35,7 +35,10 @@ function Hero() {
 
   useEffect(() => {
     const video = videoRef.current
-    if (!video) return
+    if (!video || !businessConfig.heroVideo) {
+      setPhase('complete')
+      return
+    }
 
     function onTimeUpdate() {
       const t = video.currentTime
@@ -80,14 +83,23 @@ function Hero() {
           Desktop: absolute inset-0 → fills viewport, aspect-ratio ignored by inset
       ── */}
       <div className="hero-video-wrapper">
-        <video
-          ref={videoRef}
-          muted playsInline preload="auto"
-          className="absolute inset-0 w-full h-full object-cover object-center"
-          style={{ transform: 'translateZ(0)' }}
-        >
-          <source src={businessConfig.heroVideo} type="video/mp4" />
-        </video>
+        {businessConfig.heroVideo ? (
+          <video
+            ref={videoRef}
+            muted playsInline preload="auto"
+            className="absolute inset-0 w-full h-full object-cover object-center"
+            style={{ transform: 'translateZ(0)' }}
+          >
+            <source src={businessConfig.heroVideo} type="video/mp4" />
+          </video>
+        ) : (
+          <img
+            ref={videoRef}
+            src={businessConfig.heroImage}
+            alt={businessConfig.name}
+            className="absolute inset-0 w-full h-full object-cover object-center"
+          />
+        )}
 
         {/* Progress bar */}
         {phase === 'playing' && (
