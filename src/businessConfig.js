@@ -28,18 +28,18 @@ export const businessConfig = {
     "display": "Playfair Display",
     "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800&family=Playfair+Display:ital,wght@1,700;1,800;1,900&display=swap"
   },
-  "eyebrow": "LIVERPOOL'S TRUSTED CLEANING SERVICE",
-  "headline": "Expert Cleaning Solutions\nFor a Healthier Home",
-  "headlineLight": "Expert Cleaning Solutions",
-  "headlineBold": "_For a Healthier Home_",
+  "eyebrow": "LOCAL CLEANING, LIVERPOOL",
+  "headline": "Sparkling clean homes\nCleaning Done Right",
+  "headlineLight": "Sparkling clean homes",
+  "headlineBold": "Cleaning Done Right",
   "heroKeyword": "CLEAN",
   "heroVideo": "/hero-m14.mp4",
   "heroImage": "/hero-generated.jpg",
   "aboutImage": "https://images.pexels.com/photos/20374786/pexels-photo-20374786.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  "heroSubtext": "At Clean With Hope, we understand the importance of a clean and healthy home. Our team of experts provides top-notch cleaning services to ensure your home is sparkling clean and germ-free. From routine cleans to deep cleaning, we've got you covered.",
-  "ctaBannerHeadline": "Get a Quote Today",
-  "ctaBannerSubtext": "Fill out our contact form or book via Instagram @cleanwithhope_ to get a quote for our cleaning services.",
-  "aboutHeroSubtitle": "Learn more about our story and mission to provide the best cleaning services in Liverpool.",
+  "heroSubtext": "Transforming Liverpool homes with precision cleaning — book via Instagram @cleanwithhope_.",
+  "ctaBannerHeadline": "Book Your Clean Now",
+  "ctaBannerSubtext": "DM us on Instagram @cleanwithhope_ to arrange your visit.",
+  "aboutHeroSubtitle": "Liverpool's independent cleaning service — built on trust.",
   "ctaPrimary": {
     "label": "Book Now",
     "link": "/contact"
@@ -60,8 +60,8 @@ export const businessConfig = {
     "Saturday": "10:00 AM - 4:00 PM",
     "Sunday": "Closed"
   },
-  "about": "Clean With Hope is a Liverpool-based cleaning service dedicated to providing top-notch cleaning solutions for homes and businesses. Our team of experts is passionate about delivering exceptional service and ensuring our clients are completely satisfied.",
-  "story": "Founded in 2018, Clean With Hope has been serving the Liverpool community with pride. Our mission is to provide reliable, efficient, and eco-friendly cleaning services that exceed our clients' expectations. We take pride in our work and strive to build long-lasting relationships with our clients.",
+  "about": "A local, independent service rooted in Liverpool. We clean homes the way we'd clean our own — properly, every time.",
+  "story": "Clean With Hope started with a simple idea: Liverpool families deserve a cleaner they can actually trust. No franchises, no shortcuts — just reliable people doing excellent work.",
   "founded": "2018",
   "stats": [
     {
