@@ -209,7 +209,7 @@ function ServicesList() {
               {/* RIGHT 45% — image */}
               <div style={{ width: '45%', position: 'relative', overflow: 'hidden' }}>
                 <img src={svc.image} alt={svc.name} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} onError={e => { e.target.style.display = 'none' }} />
-                <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(13,27,75,0.70) 0%, rgba(13,27,75,0.38) 35%, rgba(13,27,75,0.10) 65%, rgba(13,27,75,0.0) 100%)', pointerEvents: 'none' }} />
+                <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(var(--color-darkRgb),0.70) 0%, rgba(var(--color-darkRgb),0.38) 35%, rgba(var(--color-darkRgb),0.10) 65%, rgba(var(--color-darkRgb),0.0) 100%)', pointerEvents: 'none' }} />
                 {svc.price && (
                   <div style={{ position: 'absolute', bottom: '24px', left: '24px', background: 'white', padding: '10px 20px', borderRadius: '9999px', boxShadow: '4px 4px 0px var(--color-primary)', fontSize: '14px', fontWeight: 700, color: 'var(--color-dark)' }}>
                     From {svc.price} / visit
@@ -301,7 +301,7 @@ function ServicesList() {
                 {/* Image */}
                 <div style={{ position: 'relative', height: '220px', overflow: 'hidden' }}>
                   <img src={svc.image} alt={svc.name} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} onError={e => { e.target.style.display = 'none' }} />
-                  <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(13,27,75,0.70) 0%, rgba(13,27,75,0.38) 35%, rgba(13,27,75,0.10) 65%, rgba(13,27,75,0.0) 100%)', pointerEvents: 'none' }} />
+                  <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(var(--color-darkRgb),0.70) 0%, rgba(var(--color-darkRgb),0.38) 35%, rgba(var(--color-darkRgb),0.10) 65%, rgba(var(--color-darkRgb),0.0) 100%)', pointerEvents: 'none' }} />
                   {svc.price && (
                     <div style={{ position: 'absolute', bottom: '16px', left: '16px', background: 'white', padding: '7px 14px', borderRadius: '9999px', boxShadow: '4px 4px 0px var(--color-primary)', fontSize: '13px', fontWeight: 700, color: 'var(--color-dark)' }}>
                       From {svc.price} / visit

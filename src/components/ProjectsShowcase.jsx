@@ -41,7 +41,7 @@ export default function ProjectsShowcase() {
               {/* Hover overlay */}
               <div
                 className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                style={{ background: 'linear-gradient(to top, rgba(13,27,75,0.70) 0%, rgba(13,27,75,0.38) 35%, rgba(13,27,75,0.10) 65%, rgba(13,27,75,0.0) 100%)' }}
+                style={{ background: 'linear-gradient(to top, rgba(var(--color-darkRgb),0.70) 0%, rgba(var(--color-darkRgb),0.38) 35%, rgba(var(--color-darkRgb),0.10) 65%, rgba(var(--color-darkRgb),0.0) 100%)' }}
               />
               <div className="absolute bottom-0 left-0 p-7 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
                 <span className="inline-block px-3 py-1 rounded-full bg-[var(--color-primary)]/30 backdrop-blur border border-[var(--color-primary)]/50 text-white text-xs font-semibold mb-3">

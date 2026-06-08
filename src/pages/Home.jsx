@@ -236,17 +236,17 @@ function Hero() {
                   >
                     <Link
                       to={businessConfig.ctaPrimary.link}
-                      style={{ background: 'var(--color-primary)', color: 'white', fontWeight: 700, fontSize: '14px', padding: '14px 28px', borderRadius: '9999px', textDecoration: 'none', whiteSpace: 'nowrap', boxShadow: '0 4px 20px rgba(13,27,75,0.26)', transition: 'transform 0.2s ease, box-shadow 0.2s ease' }}
-                      onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 8px 28px rgba(13,27,75,0.36)' }}
-                      onMouseLeave={e => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 4px 20px rgba(13,27,75,0.26)' }}
+                      style={{ background: 'var(--color-primary)', color: 'white', fontWeight: 700, fontSize: '14px', padding: '14px 28px', borderRadius: '9999px', textDecoration: 'none', whiteSpace: 'nowrap', boxShadow: '0 4px 20px rgba(var(--color-darkRgb),0.26)', transition: 'transform 0.2s ease, box-shadow 0.2s ease' }}
+                      onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 8px 28px rgba(var(--color-darkRgb),0.36)' }}
+                      onMouseLeave={e => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 4px 20px rgba(var(--color-darkRgb),0.26)' }}
                     >
                       {businessConfig.ctaPrimary.label} →
                     </Link>
                     <Link
                       to={businessConfig.ctaSecondary.link}
-                      style={{ background: 'rgba(255,255,255,0.55)', color: 'var(--color-primary)', fontWeight: 600, fontSize: '14px', padding: '13px 28px', borderRadius: '9999px', textDecoration: 'none', border: '1.5px solid rgba(13,27,75,0.55)', whiteSpace: 'nowrap', transition: 'border-color 0.2s ease, background 0.2s ease' }}
-                      onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(13,27,75,0.85)'; e.currentTarget.style.background = 'rgba(255,255,255,0.75)' }}
-                      onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(13,27,75,0.55)'; e.currentTarget.style.background = 'rgba(255,255,255,0.55)' }}
+                      style={{ background: 'rgba(255,255,255,0.55)', color: 'var(--color-primary)', fontWeight: 600, fontSize: '14px', padding: '13px 28px', borderRadius: '9999px', textDecoration: 'none', border: '1.5px solid rgba(var(--color-darkRgb),0.55)', whiteSpace: 'nowrap', transition: 'border-color 0.2s ease, background 0.2s ease' }}
+                      onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(var(--color-darkRgb),0.85)'; e.currentTarget.style.background = 'rgba(255,255,255,0.75)' }}
+                      onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(var(--color-darkRgb),0.55)'; e.currentTarget.style.background = 'rgba(255,255,255,0.55)' }}
                     >
                       {businessConfig.ctaSecondary.label}
                     </Link>
@@ -258,7 +258,7 @@ function Hero() {
                     style={{ display: 'flex', gap: '20px', flexWrap: 'wrap' }}
                   >
                     {businessConfig.statValues.slice(0, 3).map((s, i) => (
-                      <div key={i} style={{ borderLeft: '2px solid rgba(13,27,75,0.15)', paddingLeft: '12px' }}>
+                      <div key={i} style={{ borderLeft: '2px solid rgba(var(--color-darkRgb),0.15)', paddingLeft: '12px' }}>
                         <div style={{ fontSize: 'clamp(18px, 2.2vw, 26px)', fontWeight: 800, color: 'var(--color-primary)', lineHeight: 1.1, WebkitTextStroke: '1.5px rgba(255,255,255,0.5)', paintOrder: 'stroke fill' }}>{s.num}{s.suffix}</div>
                         <div style={{ fontSize: '11px', color: 'var(--color-secondary)', marginTop: '2px', fontWeight: 400, letterSpacing: '0.02em' }}>{s.label}</div>
                       </div>
@@ -278,14 +278,14 @@ function Hero() {
             >
               <div className="flex">
                 {['PS', 'RM', 'SR', 'IK', 'AI'].map((ini, i) => (
-                  <div key={i} style={{ width: '34px', height: '34px', borderRadius: '9999px', background: 'rgba(13,27,75,0.07)', border: '2px solid rgba(13,27,75,0.13)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--color-primary)', fontSize: '10px', fontWeight: 700, marginLeft: i === 0 ? '0' : '-8px' }}>
+                  <div key={i} style={{ width: '34px', height: '34px', borderRadius: '9999px', background: 'rgba(var(--color-darkRgb),0.07)', border: '2px solid rgba(var(--color-darkRgb),0.13)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--color-primary)', fontSize: '10px', fontWeight: 700, marginLeft: i === 0 ? '0' : '-8px' }}>
                     {ini}
                   </div>
                 ))}
               </div>
               <div>
                 <div style={{ color: 'var(--color-primary)', fontSize: '13px', letterSpacing: '2px', marginBottom: '2px', opacity: 0.78 }}>★★★★★</div>
-                <div style={{ color: 'rgba(13,27,75,0.42)', fontSize: '12px', fontWeight: 400 }}>5.0 · 1,200+ reviews</div>
+                <div style={{ color: 'rgba(var(--color-darkRgb),0.42)', fontSize: '12px', fontWeight: 400 }}>5.0 · 1,200+ reviews</div>
               </div>
             </motion.div>
 
@@ -767,7 +767,7 @@ function HowItWorks() {
             <div style={{
               position: 'absolute', left: '7px', top: '8px', width: '2px', borderRadius: '9999px',
               background: 'linear-gradient(to bottom, var(--color-primary), var(--color-primaryDark))',
-              boxShadow: '0 0 8px rgba(13,27,75,0.7), 0 0 16px rgba(13,27,75,0.3)',
+              boxShadow: '0 0 8px rgba(var(--color-darkRgb),0.7), 0 0 16px rgba(var(--color-darkRgb),0.3)',
               height: `${steps.length > 1 ? (active / (steps.length - 1)) * 100 : 0}%`,
               transition: 'height 0.6s cubic-bezier(0.22,1,0.36,1)', zIndex: 0
             }} />
@@ -850,10 +850,10 @@ function ProjectCard({ p, fadeDelay, hoverShadow }) {
         style={{
           background: `linear-gradient(
             to top,
-            rgba(13,27,75,0.70) 0%,
-            rgba(13,27,75,0.38) 35%,
-            rgba(13,27,75,0.10) 65%,
-            rgba(13,27,75,0.0) 100%
+            rgba(var(--color-darkRgb),0.70) 0%,
+            rgba(var(--color-darkRgb),0.38) 35%,
+            rgba(var(--color-darkRgb),0.10) 65%,
+            rgba(var(--color-darkRgb),0.0) 100%
           )`,
         }}
       />

@@ -119,7 +119,7 @@ export default function HowItWorks() {
             <div style={{
               position: 'absolute', left: '7px', top: '8px', width: '2px', borderRadius: '9999px',
               background: 'linear-gradient(to bottom, var(--color-primary), var(--color-primaryDark))',
-              boxShadow: '0 0 8px rgba(13,27,75,0.7), 0 0 16px rgba(13,27,75,0.3)',
+              boxShadow: '0 0 8px rgba(var(--color-darkRgb),0.7), 0 0 16px rgba(var(--color-darkRgb),0.3)',
               height: `${steps.length > 1 ? (active / (steps.length - 1)) * 100 : 0}%`,
               transition: 'height 0.6s cubic-bezier(0.22,1,0.36,1)', zIndex: 0
             }} />
