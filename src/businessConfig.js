@@ -1,6 +1,5 @@
 // Clean With Hope — businessConfig
-// Generated: 2026-06-08 18:12
-// Edit freely. Re-run the generator to rebuild from scratch.
+// Images refreshed: 2026-06-08 18:45
 
 export const businessConfig = {
   "name": "Clean With Hope",
@@ -34,7 +33,7 @@ export const businessConfig = {
   "heroKeyword": "CLEAN",
   "heroVideo": "/hero-m14.mp4",
   "heroImage": "/hero-generated.jpg",
-  "aboutImage": "https://images.pexels.com/photos/12588505/pexels-photo-12588505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  "aboutImage": "https://images.pexels.com/photos/5317154/pexels-photo-5317154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   "heroSubtext": "At Clean With Hope, we understand the importance of a clean and healthy home. Our team of experts provides top-notch cleaning services to ensure your home is sparkling clean and germ-free. From routine cleans to deep cleaning, we've got you covered.",
   "ctaBannerHeadline": "Get a Quote Today",
   "ctaBannerSubtext": "Fill out our contact form or book via Instagram @cleanwithhope_ to get a quote for our cleaning services.",
@@ -217,92 +216,92 @@ export const businessConfig = {
       "number": "01",
       "title": "Book Your Appointment",
       "desc": "Book your appointment via Instagram @cleanwithhope_ or our contact form.",
-      "img": "/howitworks1.jpg"
+      "img": "/howitworks1-generated.jpg"
     },
     {
       "number": "02",
       "title": "Customized Cleaning Plan",
       "desc": "We'll work with you to create a customized cleaning plan that fits your needs.",
-      "img": "/howitworks3.jpg"
+      "img": "/howitworks2-generated.jpg"
     },
     {
       "number": "03",
       "title": "Eco-Friendly Cleaning",
       "desc": "Our team uses eco-friendly products to ensure a healthy and sustainable cleaning experience.",
-      "img": "/howitworks4.jpg"
+      "img": "/howitworks3-generated.jpg"
     },
     {
       "number": "04",
       "title": "Quality Guarantee",
       "desc": "We guarantee your satisfaction with our cleaning services. If you're not happy, we'll work with you to make it right.",
-      "img": "/howitworks2.jpg"
+      "img": "/howitworks4-generated.jpg"
     }
   ],
   "gallery": [
     {
-      "src": "https://images.pexels.com/photos/7174113/pexels-photo-7174113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "src": "https://images.pexels.com/photos/7214456/pexels-photo-7214456.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "category": "Residential",
       "alt": "luxury apartment after clean"
     },
     {
-      "src": "https://images.pexels.com/photos/8135492/pexels-photo-8135492.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "src": "https://images.pexels.com/photos/7587773/pexels-photo-7587773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "category": "Residential",
       "alt": "premium lounge clean result"
     },
     {
-      "src": "https://images.pexels.com/photos/8135496/pexels-photo-8135496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "src": "https://images.pexels.com/photos/7546716/pexels-photo-7546716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "category": "Commercial",
       "alt": "office clean Liverpool"
     },
     {
-      "src": "https://images.pexels.com/photos/7174386/pexels-photo-7174386.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "src": "https://images.pexels.com/photos/8146158/pexels-photo-8146158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "category": "Interior",
       "alt": "kitchen deep clean result"
     },
     {
-      "src": "https://images.pexels.com/photos/7167073/pexels-photo-7167073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "src": "https://images.pexels.com/photos/6238613/pexels-photo-6238613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "category": "Residential",
       "alt": "bedroom clean result"
     },
     {
-      "src": "https://images.pexels.com/photos/7214456/pexels-photo-7214456.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "src": "https://images.pexels.com/photos/7214443/pexels-photo-7214443.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "category": "Commercial",
       "alt": "commercial space clean"
     },
     {
-      "src": "https://images.pexels.com/photos/6238615/pexels-photo-6238615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "src": "https://images.pexels.com/photos/7533933/pexels-photo-7533933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "category": "Interior",
       "alt": "bathroom clean result"
     },
     {
-      "src": "https://images.pexels.com/photos/6636314/pexels-photo-6636314.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "src": "https://images.pexels.com/photos/8146214/pexels-photo-8146214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "category": "Residential",
       "alt": "living room clean result"
     },
     {
-      "src": "https://images.pexels.com/photos/7546286/pexels-photo-7546286.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "src": "https://images.pexels.com/photos/6890397/pexels-photo-6890397.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "category": "Commercial",
       "alt": "hallway clean result"
     }
   ],
   "videoUrl": "",
   "marqueeImages": [
-    "https://images.pexels.com/photos/7174113/pexels-photo-7174113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "https://images.pexels.com/photos/8135492/pexels-photo-8135492.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "https://images.pexels.com/photos/8135496/pexels-photo-8135496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "https://images.pexels.com/photos/7174386/pexels-photo-7174386.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "https://images.pexels.com/photos/7167073/pexels-photo-7167073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "https://images.pexels.com/photos/7214456/pexels-photo-7214456.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "https://images.pexels.com/photos/6238615/pexels-photo-6238615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "https://images.pexels.com/photos/6636314/pexels-photo-6636314.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "https://images.pexels.com/photos/7546286/pexels-photo-7546286.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "https://images.pexels.com/photos/7587773/pexels-photo-7587773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "https://images.pexels.com/photos/7546716/pexels-photo-7546716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "https://images.pexels.com/photos/8146158/pexels-photo-8146158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "https://images.pexels.com/photos/6238613/pexels-photo-6238613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "https://images.pexels.com/photos/7214443/pexels-photo-7214443.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "https://images.pexels.com/photos/7533933/pexels-photo-7533933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "https://images.pexels.com/photos/8146214/pexels-photo-8146214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "https://images.pexels.com/photos/6890397/pexels-photo-6890397.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "/service-1-generated.jpg",
     "/service-2-generated.jpg",
     "/service-3-generated.jpg",
     "/service-4-generated.jpg",
     "/service-5-generated.jpg",
     "/service-6-generated.jpg",
-    "https://images.pexels.com/photos/7174113/pexels-photo-7174113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    "https://images.pexels.com/photos/7214456/pexels-photo-7214456.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
   ],
   "beforeAfter": [
     {
@@ -310,48 +309,48 @@ export const businessConfig = {
       "category": "Residential",
       "title": "Move-Out Clean",
       "description": "City centre apartment, Liverpool",
-      "before": "https://images.pexels.com/photos/12588505/pexels-photo-12588505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "after": "https://images.pexels.com/photos/5317154/pexels-photo-5317154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      "before": "https://images.pexels.com/photos/5317154/pexels-photo-5317154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "after": "https://images.pexels.com/photos/12786912/pexels-photo-12786912.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       "id": 2,
       "category": "Residential",
       "title": "Deep Clean",
       "description": "Luxury high-rise, Liverpool",
-      "before": "https://images.pexels.com/photos/12588505/pexels-photo-12588505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "after": "https://images.pexels.com/photos/7174113/pexels-photo-7174113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      "before": "https://images.pexels.com/photos/5317154/pexels-photo-5317154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "after": "https://images.pexels.com/photos/7214456/pexels-photo-7214456.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       "id": 3,
       "category": "Commercial",
       "title": "Office Clean",
       "description": "Commercial space, Liverpool",
-      "before": "https://images.pexels.com/photos/12588505/pexels-photo-12588505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "after": "https://images.pexels.com/photos/8135492/pexels-photo-8135492.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      "before": "https://images.pexels.com/photos/5317154/pexels-photo-5317154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "after": "https://images.pexels.com/photos/7587773/pexels-photo-7587773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       "id": 4,
       "category": "Residential",
       "title": "End of Tenancy",
       "description": "Apartment complex, Liverpool",
-      "before": "https://images.pexels.com/photos/12588505/pexels-photo-12588505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "after": "https://images.pexels.com/photos/8135496/pexels-photo-8135496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      "before": "https://images.pexels.com/photos/5317154/pexels-photo-5317154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "after": "https://images.pexels.com/photos/7546716/pexels-photo-7546716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       "id": 5,
       "category": "Interior",
       "title": "Kitchen Restoration",
       "description": "City centre flat, Liverpool",
-      "before": "https://images.pexels.com/photos/12588505/pexels-photo-12588505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "after": "https://images.pexels.com/photos/7174386/pexels-photo-7174386.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      "before": "https://images.pexels.com/photos/5317154/pexels-photo-5317154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "after": "https://images.pexels.com/photos/8146158/pexels-photo-8146158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
       "id": 6,
       "category": "Residential",
       "title": "Post-Renovation",
       "description": "New build, Liverpool",
-      "before": "https://images.pexels.com/photos/12588505/pexels-photo-12588505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "after": "https://images.pexels.com/photos/7167073/pexels-photo-7167073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      "before": "https://images.pexels.com/photos/5317154/pexels-photo-5317154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "after": "https://images.pexels.com/photos/6238613/pexels-photo-6238613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     }
   ],
   "projects": [
