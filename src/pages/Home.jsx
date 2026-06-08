@@ -22,9 +22,9 @@ function initials(name) {
 /* ──────────────────────────────── SECTION 2 — HERO ──────────────────────────────── */
 // Time-based beats (seconds) mapped from original frame analysis
 const HERO_BEATS = [
-  { id: 'before',  startTime: 0.8,  endTime: 2.2,  label: 'MANCHESTER, UK',  line: 'Before.' },
-  { id: 'service', startTime: 3.6,  endTime: 5.2,  label: 'M14 SERVICE',     line: 'The transformation.' },
-  { id: 'after',   startTime: 6.3,  endTime: 7.7,  label: 'THE RESULT',      line: 'Spotless.' },
+  { id: 'before',  startTime: 0.8,  endTime: 2.2,  label: `${businessConfig.city?.toUpperCase()}, UK`,  line: 'Before.' },
+  { id: 'service', startTime: 3.6,  endTime: 5.2,  label: businessConfig.name?.toUpperCase(),            line: 'The transformation.' },
+  { id: 'after',   startTime: 6.3,  endTime: 7.7,  label: 'THE RESULT',                                  line: 'Spotless.' },
 ]
 const VIDEO_DURATION = 8 // seconds
 
@@ -146,8 +146,8 @@ function Hero() {
             style={{ background: 'var(--color-primary)' }}
           >
             <div>
-              <span style={{ color: 'white', fontFamily: 'Inter,sans-serif', fontSize: '20px', fontWeight: 800, letterSpacing: '-0.02em' }}>M14</span>
-              <span style={{ color: 'rgba(255,255,255,0.48)', fontFamily: 'Inter,sans-serif', fontSize: '20px', fontWeight: 300, letterSpacing: '-0.02em' }}> Service</span>
+              <span style={{ color: 'white', fontFamily: 'Inter,sans-serif', fontSize: '20px', fontWeight: 800, letterSpacing: '-0.02em' }}>{businessConfig.namePart1}</span>
+              <span style={{ color: 'rgba(255,255,255,0.48)', fontFamily: 'Inter,sans-serif', fontSize: '20px', fontWeight: 300, letterSpacing: '-0.02em' }}> {businessConfig.namePart2}</span>
             </div>
             <motion.div
               animate={{ opacity: [0.3, 1, 0.3] }}

@@ -251,7 +251,7 @@ export const businessConfig = {
     {
       "src": "https://images.pexels.com/photos/8135496/pexels-photo-8135496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "category": "Commercial",
-      "alt": "office clean Manchester"
+      "alt": "office clean Liverpool"
     },
     {
       "src": "https://images.pexels.com/photos/7174386/pexels-photo-7174386.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",

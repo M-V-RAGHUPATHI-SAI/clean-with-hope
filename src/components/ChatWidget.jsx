@@ -30,7 +30,7 @@ SERVICES & PRICING:
 ${services}
 
 AREAS SERVED:
-Manchester and surrounding areas — Spinningfields, Northern Quarter, Didsbury, Chorlton, Castlefield, Rusholme, and more.
+${b.city} and surrounding areas.
 
 BUSINESS HOURS:
 ${hours}
